@@ -13,6 +13,35 @@
 	margin: 0 auto 1rem;
 }
 
+h1 {
+	font-size: clamp(1.15rem, 2.2vw, 1.75rem);
+	line-height: 1.25;
+	color: #1f5f9b;
+}
+
+.placeholder-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.9rem;
+	margin-top: 1rem;
+}
+
+.placeholder-links a {
+	padding: 0.55rem 0.85rem;
+	color: #5f6b78;
+	background-color: #f3f5f7;
+	border: 1px solid #cfd6de;
+	border-radius: 999px;
+	transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.placeholder-links a:hover {
+	color: #45515d;
+	background-color: #e8edf2;
+	border-color: #bbc6d1;
+}
+
 .logo {
 	height: 6em;
 	padding: 1.5em;
