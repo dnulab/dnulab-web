@@ -1,8 +1,16 @@
 #root {
 	max-width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 2rem;
 	text-align: center;
+}
+
+.hero-logo {
+	display: block;
+	width: clamp(140px, 35vw, 280px);
+	height: auto;
+	margin: 0 auto 1rem;
 }
 
 .logo {
