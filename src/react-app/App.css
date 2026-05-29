@@ -106,6 +106,15 @@ h1 {
 	color: #4f5e6d;
 }
 
+.term-interlude {
+	padding: 0.9rem 1rem;
+	border-left: 4px solid #c7d7e7;
+	border-radius: 8px;
+	background: #f5f8fb;
+	color: #445668;
+	line-height: 1.6;
+}
+
 .student-list {
 	list-style: none;
 	margin: 0;

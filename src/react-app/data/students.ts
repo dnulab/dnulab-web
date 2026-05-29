@@ -6,15 +6,49 @@ export const studentTerms: StudentTerm[] = [
 		theme: "Generalization in micro-LLMs",
 		students: [
 			{
-				name: "Aaron Shin",
+				name: "Pranav Azad",
 				graduationYear: "'27",
-				projectTitle: "Infinite-length generalization in micro-LLMs",
+				projectTitle:
+					"Analysis of human Rubik's cube solves by deep neural networks",
+			},			
+			{
+				name: "Ty Chermsirivatana",
+				graduationYear: "'27",
+				projectTitle:
+					"TBA",
+			},			
+            {
+				name: "Adacus Greene",
+				graduationYear: "'27",
+				projectTitle:
+					"TBA",
+			},
+            {
+				name: "Biruk Kebede",
+				graduationYear: "'29",
+				projectTitle:
+					"TBA",
 			},
 			{
 				name: "John Lee",
 				graduationYear: "'27",
 				projectTitle: "LLM generalization for fixed-length inputs",
 			},
+			{
+				name: "Sian Phillips",
+				graduationYear: "'27",
+				projectTitle: "TBA",
+			},
+			{
+                name: "Aaron Shin",
+				graduationYear: "'27",
+				projectTitle: "Infinite-length generalization in micro-LLMs",
+			},
+            {
+                name: "Andrew Stein",
+                graduationYear: "'28",
+                projectTitle: "Incorporating frozen components in neural network architectures",
+            },
 		],
 	},
 	{
@@ -32,26 +66,6 @@ export const studentTerms: StudentTerm[] = [
 			},
 			{
 				name: "Youssif Goda",
-				graduationYear: "'26",
-				projectTitle:
-					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
-				documents: {
-					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
-					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
-				},
-			},
-			{
-				name: "John Lee",
-				graduationYear: "'27",
-				projectTitle:
-					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
-				documents: {
-					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
-					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
-				},
-			},
-			{
-				name: "Maximo Sanchez",
 				graduationYear: "'26",
 				projectTitle:
 					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
@@ -84,6 +98,16 @@ export const studentTerms: StudentTerm[] = [
 				documents: {
 					report:
 						"https://github.com/hemanthkapa/comp560-hkapa/blob/main/latent-cot-nanogpt/FINAL_REPORT.md",
+				},
+			},
+			{
+				name: "John Lee",
+				graduationYear: "'27",
+				projectTitle:
+					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
+				documents: {
+					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
+					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
 				},
 			},
 			{
@@ -146,6 +170,16 @@ export const studentTerms: StudentTerm[] = [
 				projectTitle: "What Tiny GPTs Can Represent and What They Actually Learn",
 				documents: {
 					report: "/student-reports/spring2026/niloy.pdf",
+				},
+			},
+			{
+				name: "Maximo Sanchez",
+				graduationYear: "'26",
+				projectTitle:
+					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
+				documents: {
+					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
+					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
 				},
 			},
 			{
