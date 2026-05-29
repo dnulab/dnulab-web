@@ -1,0 +1,163 @@
+import { type StudentTerm } from "../types";
+
+export const studentTerms: StudentTerm[] = [
+	{
+		term: "Summer 2026",
+		theme: "Generalization in micro-LLMs",
+		students: [
+			{
+				name: "Aaron Shin",
+				graduationYear: "'27",
+				projectTitle: "Infinite-length generalization in micro-LLMs",
+			},
+			{
+				name: "John Lee",
+				graduationYear: "'27",
+				projectTitle: "LLM generalization for fixed-length inputs",
+			},
+		],
+	},
+	{
+		term: "Spring 2026",
+		theme: "Liberating chain-of-thought reasoning in large language models",
+		students: [
+			{
+				name: "Pranav Azad",
+				graduationYear: "'27",
+				projectTitle:
+					"Evaluating Data Representation and Chain-of-Thought Reasoning for Arithmetic Tasks in Character-Level Language Models",
+				documents: {
+					report: "/student-reports/spring2026/azad.pdf",
+				},
+			},
+			{
+				name: "Youssif Goda",
+				graduationYear: "'26",
+				projectTitle:
+					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
+				documents: {
+					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
+					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
+				},
+			},
+			{
+				name: "John Lee",
+				graduationYear: "'27",
+				projectTitle:
+					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
+				documents: {
+					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
+					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
+				},
+			},
+			{
+				name: "Maximo Sanchez",
+				graduationYear: "'26",
+				projectTitle:
+					"Hardware Comparison on Tiny Shakespeare (Character-Level nanoGPT)",
+				documents: {
+					report: "/student-reports/spring2026/lee-sanchez-goda.pdf",
+					poster: "/student-reports/spring2026/goda-lee-sanchez-poster.pdf",
+				},
+			},
+			{
+				name: "Mubashshir Alam Ifrad",
+				graduationYear: "'26",
+				projectTitle: "Transformer Reasoning Research",
+				documents: {
+					report: "https://github.com/Ifrad/transformer-reasoning-research",
+				},
+			},
+			{
+				name: "Tayyaba Jadoon",
+				graduationYear: "'26",
+				projectTitle:
+					"Reasoning Without Generalization: A Comparison of Direct, Chain-of-Thought, and Scratchpad Training Paradigms on Out-of-Distribution Arithmetic",
+				documents: {
+					report: "/student-reports/spring2026/tayyaba.pdf",
+				},
+			},
+			{
+				name: "Hemanth Surya Ganesh Kapa",
+				graduationYear: "'27",
+				projectTitle: "Latent Chain-of-Thought via Looped Transformers",
+				documents: {
+					report:
+						"https://github.com/hemanthkapa/comp560-hkapa/blob/main/latent-cot-nanogpt/FINAL_REPORT.md",
+				},
+			},
+			{
+				name: "Aziz Muminov",
+				graduationYear: "'26",
+				projectTitle:
+					"Cross-Step Activation Mixing Has a Depth-Dependent Design Tradeoff: Preliminary Results on Multi-Digit Addition",
+				documents: {
+					report: "/student-reports/spring2026/muminov.pdf",
+				},
+			},
+			{
+				name: "Phu Nguyen",
+				graduationYear: "'27",
+				projectTitle:
+					"Teaching Arithmetic to a Small Language Model: A Chain-of-Thought Training Study with NanoGPT",
+				documents: {
+					report: "/student-reports/spring2026/phu-nguyen.pdf",
+				},
+			},
+			{
+				name: "Son Nguyen",
+				graduationYear: "'27",
+				projectTitle: "Transformer Algebra for Reverse-Then-Add Composition",
+				documents: {
+					report:
+						"https://github.com/sonnguyen123526/comp560-sonnguyen/blob/main/transformer-algebra/Final_Report.MD",
+				},
+			},
+			{
+				name: "Radiath Kamal Patwary",
+				graduationYear: "'26",
+				projectTitle:
+					"From Readings About LLM Reasoning and Some Research Experiments",
+				documents: {
+					report: "/student-reports/spring2026/patwary.pdf",
+				},
+			},
+			{
+				name: "Lam Pham",
+				graduationYear: "'28",
+				projectTitle:
+					"Optimizing nanoGPT for Multi-Digit Addition through Hardware, Algorithm, and MLOps Restructuring",
+				documents: {
+					report: "/student-reports/spring2026/pham.pdf",
+				},
+			},
+			{
+				name: "Rohan Piya",
+				graduationYear: "'28",
+				projectTitle:
+					"Can Chain-of-Thought Improve Algorithmic Reasoning in Small Language Models?",
+				documents: {
+					report: "/student-reports/spring2026/piya.pdf",
+				},
+			},
+			{
+				name: "Niloy Saha",
+				graduationYear: "'27",
+				projectTitle: "What Tiny GPTs Can Represent and What They Actually Learn",
+				documents: {
+					report: "/student-reports/spring2026/niloy.pdf",
+				},
+			},
+			{
+				name: "Aaron Shin",
+				graduationYear: "'27",
+				projectTitle:
+					"Target Masking in a Tiny Transformer: Higher Ceiling, Not Faster Convergence",
+				documents: {
+					report:
+						"https://github.com/aaronshin43/comp560-aaronshin43/blob/main/FINAL_REPORT.md",
+				},
+			},
+		],
+	},
+];
