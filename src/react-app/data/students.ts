@@ -16,6 +16,12 @@ export const studentTerms: StudentTerm[] = [
 				graduationYear: "'27",
 				projectTitle:
 					"TBA",
+			},
+{
+				name: "Zachary Deitch",
+				graduationYear: "'27",
+				projectTitle:
+					"Discovering latent factors in financial models via LLMs",
 			},			
             {
 				name: "Adacus Greene",
