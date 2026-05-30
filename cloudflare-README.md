@@ -88,3 +88,11 @@ npx wrangler tail
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Documentation](https://reactjs.org/)
 - [Hono Documentation](https://hono.dev/)
+
+## refresh wrangler auth
+
+```bash
+npx wrangler logout
+npx wrangler login
+npx wrangler whoami
+```

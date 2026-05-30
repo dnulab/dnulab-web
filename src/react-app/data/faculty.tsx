@@ -16,6 +16,12 @@ export const facultyMembers: FacultyMember[] = [
 		),
 	},
 	{
+		name: "Eren Bilen",
+		headshot: null,
+		description:
+			"Eren's bio here",
+	},
+	{
 		name: "Your name here!",
 		headshot: null,
 		description:
