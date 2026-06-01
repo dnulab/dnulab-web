@@ -27,7 +27,7 @@ export const studentTerms: StudentTerm[] = [
 				name: "Adacus Greene",
 				graduationYear: "'27",
 				projectTitle:
-					"TBA",
+					"Shorter Sequences or Larger Vocabularies? Comparing Token Packing Strategies in Tiny Transformers",
 			},
             {
 				name: "Biruk Kebede",
