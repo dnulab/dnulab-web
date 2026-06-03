@@ -4,6 +4,7 @@ import { type FacultyMember } from "../types";
 export const facultyMembers: FacultyMember[] = [
 	{
 		name: "John MacCormick",
+		department: "Computer Science",
 		headshot: jmacHeadshot,
 		description: (
 			<>
@@ -17,14 +18,23 @@ export const facultyMembers: FacultyMember[] = [
 	},
 	{
 		name: "Eren Bilen",
+		department: "Data Analytics",
 		headshot: null,
 		description:
 			"Eren's bio here",
 	},
 	{
-		name: "Your name here!",
+		name: "Lulu Wang",
+		department: "Data Analytics",
 		headshot: null,
 		description:
-			"The lab needs more faculty members before we officially launch🙂",
+			"Lulu's bio here",
+	},
+	{
+		name: "Xiaolu Wang",
+		department: "International Business and Management",
+		headshot: null,
+		description:
+			"Xiaolu's bio here",
 	},
 ];

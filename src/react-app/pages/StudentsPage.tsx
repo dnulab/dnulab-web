@@ -5,6 +5,9 @@ import { studentTerms } from "../data/students";
 const studentsInterludeText =
 	"Note: Reports, posters, and slides linked below are provided as submitted by students and have not been validated by faculty. Reports can be cited as, for example, “Dickinson College DNU Lab independent research report, spring 2026”.";
 
+const advisorLabel = (advisors: string[]) =>
+	advisors.length === 1 ? "Advisor" : "Advisors";
+
 export function StudentsPage() {
 	return (
 		<>
@@ -15,6 +18,9 @@ export function StudentsPage() {
 						<article className="term-block" key={term.term}>
 							<h2>{term.term}</h2>
 							<p className="term-theme">Theme: {term.theme}</p>
+							{term.advisors?.length ? (
+								<p className="term-advisors"><em>{advisorLabel(term.advisors)}:</em> {term.advisors.join(", ")}</p>
+							) : null}
 							<ul className="student-list">
 								{term.students.map((student) => (
 									<li
@@ -24,6 +30,9 @@ export function StudentsPage() {
 										<p className="student-name">
 											{student.name} {student.graduationYear}
 										</p>
+										{student.advisors?.length ? (
+											<p className="student-advisors"><em>{advisorLabel(student.advisors)}:</em> {student.advisors.join(", ")}</p>
+										) : null}
 										<p className="student-project">
 											<em>Topic: </em> {student.projectTitle}
 											<StudentDocuments documents={student.documents} />

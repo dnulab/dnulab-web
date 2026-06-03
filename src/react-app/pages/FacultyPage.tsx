@@ -21,6 +21,7 @@ export function FacultyPage() {
 							)}
 						</div>
 						<h2>{member.name}</h2>
+						<p className="faculty-department">{member.department}</p>
 						<p>{member.description}</p>
 					</article>
 				))}

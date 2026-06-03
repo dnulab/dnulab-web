@@ -8,17 +8,20 @@ export type StudentEntry = {
 	name: string;
 	graduationYear: string;
 	projectTitle: string;
+	advisors?: string[];
 	documents?: StudentDocuments;
 };
 
 export type StudentTerm = {
 	term: string;
 	theme: string;
+	advisors?: string[];
 	students: StudentEntry[];
 };
 
 export type FacultyMember = {
 	name: string;
+	department: string;
 	headshot: string | null;
 	description: ReactNode;
 };
