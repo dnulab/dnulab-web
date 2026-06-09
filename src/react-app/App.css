@@ -6,6 +6,52 @@
 	text-align: center;
 }
 
+:root {
+	--page-heading: #1f5f9b;
+	--text-primary: #2d3c4d;
+	--text-secondary: #4f5e6d;
+	--text-tertiary: #3d4f61;
+	--surface-1: #fbfcfd;
+	--surface-2: #f4f7fa;
+	--surface-3: #f5f8fb;
+	--surface-pill: #f3f5f7;
+	--border-1: #d9e0e7;
+	--border-2: #e0e6ed;
+	--border-pill: #cfd6de;
+	--placeholder-border: #b8c5d1;
+	--placeholder-text: #6b7785;
+	--placeholder-bg: #f0f4f8;
+	--interlude-border: #c7d7e7;
+	--link-pill-text: #5f6b78;
+	--link-pill-hover-text: #45515d;
+	--link-pill-hover-bg: #e8edf2;
+	--link-pill-hover-border: #bbc6d1;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--page-heading: #9cc8f2;
+		--text-primary: #e5edf5;
+		--text-secondary: #bed0e2;
+		--text-tertiary: #d4dfeb;
+		--surface-1: #1b2430;
+		--surface-2: #202c39;
+		--surface-3: #1f2b37;
+		--surface-pill: #253446;
+		--border-1: #344557;
+		--border-2: #415568;
+		--border-pill: #4f647a;
+		--placeholder-border: #5f748a;
+		--placeholder-text: #d2deea;
+		--placeholder-bg: #2a394b;
+		--interlude-border: #5d7690;
+		--link-pill-text: #d7e3ef;
+		--link-pill-hover-text: #f2f7fd;
+		--link-pill-hover-bg: #31475d;
+		--link-pill-hover-border: #6a829a;
+	}
+}
+
 .hero-logo {
 	display: block;
 	width: clamp(140px, 35vw, 280px);
@@ -16,7 +62,7 @@
 h1 {
 	font-size: clamp(1.15rem, 2.2vw, 1.75rem);
 	line-height: 1.25;
-	color: #1f5f9b;
+	color: var(--page-heading);
 }
 
 .placeholder-links {
@@ -29,17 +75,17 @@ h1 {
 
 .placeholder-links a {
 	padding: 0.55rem 0.85rem;
-	color: #5f6b78;
-	background-color: #f3f5f7;
-	border: 1px solid #cfd6de;
+	color: var(--link-pill-text);
+	background-color: var(--surface-pill);
+	border: 1px solid var(--border-pill);
 	border-radius: 999px;
 	transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
 .placeholder-links a:hover {
-	color: #45515d;
-	background-color: #e8edf2;
-	border-color: #bbc6d1;
+	color: var(--link-pill-hover-text);
+	background-color: var(--link-pill-hover-bg);
+	border-color: var(--link-pill-hover-border);
 }
 
 .faculty-grid {
@@ -51,29 +97,33 @@ h1 {
 
 .faculty-card {
 	padding: 1rem;
-	border: 1px solid #d9e0e7;
+	border: 1px solid var(--border-1);
 	border-radius: 12px;
-	background: #fbfcfd;
+	background: var(--surface-1);
 	text-align: left;
 }
 
 .faculty-card h2 {
 	margin: 0.85rem 0 0.4rem;
 	font-size: 1.1rem;
-	color: #1f5f9b;
+	color: var(--page-heading);
 }
 
 .faculty-department {
 	margin: -0.2rem 0 0.65rem;
 	font-size: 0.9rem;
-	color: #4f5e6d;
+	color: var(--text-secondary);
+}
+
+.faculty-card p {
+	color: var(--text-primary);
 }
 
 .about-content {
 	max-width: 760px;
 	margin: 1rem auto 0;
 	text-align: left;
-	color: #2d3c4d;
+	color: var(--text-primary);
 	line-height: 1.7;
 }
 
@@ -83,7 +133,7 @@ h1 {
 
 .students-intro {
 	margin-top: 0.4rem;
-	color: #4f5e6d;
+	color: var(--text-secondary);
 }
 
 .term-stack {
@@ -95,35 +145,35 @@ h1 {
 
 .term-block {
 	padding: 1rem;
-	border: 1px solid #d9e0e7;
+	border: 1px solid var(--border-1);
 	border-radius: 12px;
-	background: #fbfcfd;
+	background: var(--surface-1);
 }
 
 .term-block h2 {
 	margin: 0 0 0.75rem;
 	font-size: 1.2rem;
-	color: #1f5f9b;
+	color: var(--page-heading);
 }
 
 .term-theme {
 	margin: -0.2rem 0 0.8rem;
 	font-style: italic;
-	color: #4f5e6d;
+	color: var(--text-secondary);
 }
 
 .term-advisors {
 	margin: -0.35rem 0 0.85rem;
 	font-size: 0.92rem;
-	color: #3d4f61;
+	color: var(--text-tertiary);
 }
 
 .term-interlude {
 	padding: 0.9rem 1rem;
-	border-left: 4px solid #c7d7e7;
+	border-left: 4px solid var(--interlude-border);
 	border-radius: 8px;
-	background: #f5f8fb;
-	color: #445668;
+	background: var(--surface-3);
+	color: var(--text-tertiary);
 	line-height: 1.6;
 }
 
@@ -138,25 +188,25 @@ h1 {
 .student-item {
 	padding: 0.75rem;
 	border-radius: 10px;
-	background: #f4f7fa;
-	border: 1px solid #e0e6ed;
+	background: var(--surface-2);
+	border: 1px solid var(--border-2);
 }
 
 .student-name {
 	margin: 0 0 0.25rem;
 	font-weight: 700;
-	color: #2d3c4d;
+	color: var(--text-primary);
 }
 
 .student-advisors {
 	margin: 0 0 0.2rem;
 	font-size: 0.9rem;
-	color: #4f5e6d;
+	color: var(--text-secondary);
 }
 
 .student-project {
 	margin: 0;
-	color: #3d4f61;
+	color: var(--text-tertiary);
 }
 
 .headshot-slot {
@@ -171,9 +221,9 @@ h1 {
 	display: grid;
 	place-items: center;
 	border-radius: 999px;
-	border: 2px dashed #b8c5d1;
-	color: #6b7785;
-	background: #f0f4f8;
+	border: 2px dashed var(--placeholder-border);
+	color: var(--placeholder-text);
+	background: var(--placeholder-bg);
 	font-size: 0.9rem;
 	font-weight: 600;
 	letter-spacing: 0.02em;
@@ -185,7 +235,7 @@ h1 {
 	display: block;
 	border-radius: 999px;
 	object-fit: cover;
-	border: 1px solid #cfd6de;
+	border: 1px solid var(--border-pill);
 }
 
 .logo {
