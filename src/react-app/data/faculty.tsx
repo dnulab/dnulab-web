@@ -1,4 +1,5 @@
 import jmacHeadshot from "../assets/jmac-whiteboard-square.jpg";
+import xiaoluHeadshot from "../assets/wangx-square.jpg";
 import { type FacultyMember } from "../types";
 
 export const facultyMembers: FacultyMember[] = [
@@ -33,8 +34,10 @@ export const facultyMembers: FacultyMember[] = [
 	{
 		name: "Xiaolu Wang",
 		department: "International Business and Management",
-		headshot: null,
-		description:
-			"Xiaolu's bio here",
+		headshot: xiaoluHeadshot,
+		description: (
+		<>Xiaolu's research projects center on incorporating LLMs into sentiment and emotion analysis and text mining of large scale online textual data.</>
+		),
+		
 	},
 ];
