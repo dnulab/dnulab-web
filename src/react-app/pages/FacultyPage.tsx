@@ -1,36 +1,38 @@
-import { facultyMembers } from "../data/faculty";
-
-export function FacultyPage() {
-	return (
-		<>
-			<h1>DNU Lab faculty</h1>
-			<section className="faculty-grid" aria-label="Faculty members">
-				{facultyMembers.map((member) => (
-					<article className="faculty-card" key={member.name}>
-						<div className="headshot-slot">
-							{member.headshot ? (
-								<img
-									className="headshot-image"
-									src={member.headshot}
-									alt={`Headshot of ${member.name}`}
-								/>
-							) : (
-								<div className="headshot-placeholder" aria-hidden="true">
-									Headshot
-								</div>
-							)}
-						</div>
-						<h2>{member.name}</h2>
-						<p className="faculty-department">{member.department}</p>
-						<p>{member.description}</p>
-					</article>
-				))}
-			</section>
-			<nav className="placeholder-links" aria-label="Faculty page navigation">
-				<a href="/">Back to Home</a>
-				<a href="/students">Student Page</a>
-				<a href="/about">About</a>
-			</nav>
-		</>
-	);
-}
+import jmacHeadshot from "../assets/jmac-whiteboard-square.jpg";
+import { type FacultyMember } from "../types";
+export const facultyMembers: FacultyMember[] = [
+	{
+		name: "John MacCormick",
+		department: "Computer Science",
+		headshot: jmacHeadshot,
+		description: (
+			<>
+				John is the author of books such as <em>Thinking AI</em> and <em>9
+				 Algorithms That Changed the Future</em>. He is passionate about
+				 undergraduate research, the public understanding of computer science,
+				 and the role of artificial intelligence in our society. He is the
+				 founder and director of the DNU Lab.
+			</>
+		),
+	},
+	{
+		name: "Eren Bilen",
+		department: "Data Analytics",
+		headshot: "https://www.dickinson.edu/images/faculty/large/bilene.jpg",
+		description: "Eren's bio here",
+	},
+	{
+		name: "Lulu Wang",
+		department: "Data Analytics",
+		headshot: "https://www.dickinson.edu/images/faculty/large/wanglu.jpg",
+		description: "Lulu's bio here",
+	},
+	{
+		name: "Xiaolu Wang",
+		department: "International Business and Management",
+		headshot: "https://www.dickinson.edu/images/faculty/large/wangx.jpg",
+		description: (
+			<>Xiaolu's research projects center on incorporating LLMs into sentiment and emotion analysis and text mining of large scale online textual data.</>
+		),
+	},
+];
