@@ -23,5 +23,7 @@ export type FacultyMember = {
 	name: string;
 	department: string;
 	headshot: string | null;
+	/** Optional CSS object-position for the headshot crop, e.g. "center 65%". */
+	headshotPosition?: string;
 	description: ReactNode;
 };

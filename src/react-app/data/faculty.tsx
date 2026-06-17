@@ -20,14 +20,15 @@ export const facultyMembers: FacultyMember[] = [
 	{
 		name: "Eren Bilen",
 		department: "Data Analytics",
-		headshot: null,
+		headshot: "https://www.dickinson.edu/images/faculty/large/bilene.jpg",
 		description:
 			"Eren's bio here",
 	},
 	{
 		name: "Lulu Wang",
 		department: "Data Analytics",
-		headshot: null,
+		headshot: "https://www.dickinson.edu/images/faculty/large/wanglu.jpg",
+		headshotPosition: "center 20%",
 		description:
 			"Lulu's bio here",
 	},
