@@ -22,7 +22,7 @@ export const facultyMembers: FacultyMember[] = [
 		department: "Data Analytics",
 		headshot: "https://www.dickinson.edu/images/faculty/large/bilene.jpg",
 		description:
-			"Eren's bio here",
+			"Eren's research focuses on using data science to answer questions in areas of competition, consumer behavior, and natural disaster response. By collaborating with different industries and communities, he aims to bring the benefits of data analytics to the real world, helping people and organizations make informed choices.",
 	},
 	{
 		name: "Lulu Wang",
@@ -30,7 +30,7 @@ export const facultyMembers: FacultyMember[] = [
 		headshot: "https://www.dickinson.edu/images/faculty/large/wanglu.jpg",
 		headshotPosition: "center 20%",
 		description:
-			"Lulu's bio here",
+			"Lulu works in applied econometrics, financial economics, and data science. Her work on deep neural networks includes applications of graph neural networks to volatility prediction and recommender systems.",
 	},
 	{
 		name: "Xiaolu Wang",
