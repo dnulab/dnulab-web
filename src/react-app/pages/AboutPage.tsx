@@ -5,7 +5,7 @@ export function AboutPage() {
 			<section className="about-content" aria-label="About the DNU Lab">
 				<p>
 					<strong>
-						The Deep Network Understanding Lab is a collection of students,
+						The Deep Network Understanding Lab is a community of students,
 						 faculty, and research projects at Dickinson College. Our goal is
 						 to enable independent student research on large language models
 						 and deep neural networks. Put simply, we want to understand deep
