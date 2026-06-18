@@ -41,12 +41,12 @@ export const studentTerms: StudentTerm[] = [
         projectTitle: "LLM generalization for fixed-length inputs",
         advisors: ["John MacCormick"],
       },
-      {
-        name: "Sian Phillips",
-        graduationYear: "'27",
-        projectTitle: "Memorization in small transformers",
-        advisors: ["John MacCormick"],
-      },
+      // {
+      //   name: "Sian Phillips",
+      //   graduationYear: "'27",
+      //   projectTitle: "Memorization in small transformers",
+      //   advisors: ["John MacCormick"],
+      // },
       {
         name: "Aaron Shin",
         graduationYear: "'27",
