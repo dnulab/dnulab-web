@@ -13,6 +13,11 @@ export function FacultyPage() {
 									className="headshot-image"
 									src={member.headshot}
 									alt={`Headshot of ${member.name}`}
+									style={
+										member.headshotPosition
+											? { objectPosition: member.headshotPosition }
+											: undefined
+									}
 								/>
 							) : (
 								<div className="headshot-placeholder" aria-hidden="true">
