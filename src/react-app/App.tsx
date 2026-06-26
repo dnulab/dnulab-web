@@ -2,6 +2,8 @@ import "./App.css";
 import { AboutPage } from "./pages/AboutPage";
 import { FacultyPage } from "./pages/FacultyPage";
 import { HomePage } from "./pages/HomePage";
+import { InternalPage } from "./pages/InternalPage";
+import { InternalReportGuidelinesPage } from "./pages/InternalReportGuidelinesPage";
 import { StudentsPage } from "./pages/StudentsPage";
 
 function App() {
@@ -12,6 +14,10 @@ function App() {
 			return <AboutPage />;
 		case "/faculty":
 			return <FacultyPage />;
+		case "/internal":
+			return <InternalPage />;
+		case "/internal/report-guidelines":
+			return <InternalReportGuidelinesPage />;
 		case "/students":
 			return <StudentsPage />;
 		default:

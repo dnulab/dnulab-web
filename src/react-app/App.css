@@ -276,3 +276,75 @@ h1 {
 .read-the-docs {
 	color: #888;
 }
+
+.faculty-note {
+    max-width: 760px;
+    margin: 1.25rem auto 0.75rem;
+    padding: 0.85rem 1rem;
+    /* border-left: 4px solid var(--interlude-border); */
+    border-radius: 8px;
+    background: var(--surface-3);
+    color: var(--text-tertiary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.internal-content {
+	max-width: 760px;
+	margin: 1rem auto 0;
+	padding: 1rem;
+	text-align: left;
+	border: 1px solid var(--border-1);
+	border-radius: 12px;
+	background: var(--surface-1);
+	color: var(--text-primary);
+}
+
+.markdown-content > :first-child {
+	margin-top: 0;
+}
+
+.markdown-content > :last-child {
+	margin-bottom: 0;
+}
+
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4 {
+	color: var(--page-heading);
+	margin-top: 1.15rem;
+	margin-bottom: 0.55rem;
+}
+
+.markdown-content p,
+.markdown-content li {
+	line-height: 1.7;
+	color: var(--text-primary);
+}
+
+.markdown-content ul,
+.markdown-content ol {
+	padding-left: 1.25rem;
+}
+
+.markdown-content a {
+	color: var(--page-heading);
+	text-underline-offset: 0.14em;
+}
+
+.markdown-content code {
+	padding: 0.15rem 0.35rem;
+	border-radius: 6px;
+	background: var(--surface-2);
+	border: 1px solid var(--border-2);
+	font-size: 0.92em;
+}
+
+.markdown-content pre {
+	overflow-x: auto;
+	padding: 0.8rem;
+	border-radius: 10px;
+	background: var(--surface-2);
+	border: 1px solid var(--border-2);
+}
