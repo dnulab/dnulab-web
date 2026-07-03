@@ -123,6 +123,15 @@ export const studentTerms: StudentTerm[] = [
         },
       },
       {
+        name: "Coby McClellan",
+        graduationYear: "'28",
+        projectTitle:
+          "DataFrame QA: Privacy-Preserving Data Analysis via Schema Metadata",
+        documents: {
+          poster: "/student-reports/spring2026/mcclellan-poster.pdf",
+        },
+      },
+      {
         name: "Aziz Muminov",
         graduationYear: "'26",
         projectTitle:
