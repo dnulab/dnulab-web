@@ -33,10 +33,11 @@ export function InternalPage() {
 			<h1>Internal resources</h1>
 			<section className="internal-content" aria-label="Internal resources">
 				<p>
-					This section hosts internal-reference content that is intentionally
+					This section hosts internal content that is intentionally
 					 not linked from the public home page.
 				</p>
 				<nav className="placeholder-links" aria-label="Internal resources navigation">
+					<a href="/internal/poster-guidelines">Poster guidelines</a>
 					<a href="/internal/report-guidelines">Lab report guidelines</a>
 					<a href="/">Back to Home</a>
 				</nav>

@@ -3,6 +3,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { FacultyPage } from "./pages/FacultyPage";
 import { HomePage } from "./pages/HomePage";
 import { InternalPage } from "./pages/InternalPage";
+import { InternalPosterGuidelinesPage } from "./pages/InternalPosterGuidelinesPage";
 import { InternalReportGuidelinesPage } from "./pages/InternalReportGuidelinesPage";
 import { StudentsPage } from "./pages/StudentsPage";
 
@@ -16,6 +17,8 @@ function App() {
 			return <FacultyPage />;
 		case "/internal":
 			return <InternalPage />;
+		case "/internal/poster-guidelines":
+			return <InternalPosterGuidelinesPage />;
 		case "/internal/report-guidelines":
 			return <InternalReportGuidelinesPage />;
 		case "/students":
