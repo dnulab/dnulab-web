@@ -28,6 +28,9 @@ export const studentTerms: StudentTerm[] = [
         projectTitle:
           "Shorter Sequences or Larger Vocabularies? Comparing Token Packing Strategies in Tiny Transformers",
         advisors: ["John MacCormick"],
+        documents: {
+          report: "/student-reports/summer2026/greene.pdf",
+        },
       },
       {
         name: "Biruk Kebede",
@@ -40,6 +43,10 @@ export const studentTerms: StudentTerm[] = [
         graduationYear: "'27",
         projectTitle: "LLM generalization for fixed-length inputs",
         advisors: ["John MacCormick"],
+        documents: {
+          report: "/student-reports/summer2026/lee.pdf",
+          poster: "/student-reports/summer2026/lee-poster.pdf",
+        },
       },
       // {
       //   name: "Sian Phillips",
