@@ -49,9 +49,9 @@ export const studentTerms: StudentTerm[] = [
         },
       },
       // {
-      //   name: "Sian Phillips",
-      //   graduationYear: "'27",
-      //   projectTitle: "Memorization in small transformers",
+        //   name: "Sian Phillips",
+        //   graduationYear: "'27",
+        //   projectTitle: "Memorization in small transformers",
       //   advisors: ["John MacCormick"],
       // },
       {
@@ -59,6 +59,9 @@ export const studentTerms: StudentTerm[] = [
         graduationYear: "'27",
         projectTitle: "Infinite-length generalization in micro-LLMs",
         advisors: ["John MacCormick"],
+        documents: {
+          report: "/student-reports/summer2026/shin.pdf",
+        },
       },
       {
         name: "Andrew Stein",
