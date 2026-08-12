@@ -5,6 +5,7 @@ import { HomePage } from "./pages/HomePage";
 import { InternalPage } from "./pages/InternalPage";
 import { InternalPosterGuidelinesPage } from "./pages/InternalPosterGuidelinesPage";
 import { InternalReportGuidelinesPage } from "./pages/InternalReportGuidelinesPage";
+import { OnboardingPage } from "./pages/OnboardingPage";
 import { StudentsPage } from "./pages/StudentsPage";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 			return <InternalPosterGuidelinesPage />;
 		case "/internal/report-guidelines":
 			return <InternalReportGuidelinesPage />;
+		case "/onboarding":
+			return <OnboardingPage />;
 		case "/students":
 			return <StudentsPage />;
 		default:
