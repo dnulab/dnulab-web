@@ -1,6 +1,6 @@
 import { type StudentDocumentType, type StudentDocuments as StudentDocumentsMap } from "../types";
 
-const studentDocumentOrder: StudentDocumentType[] = ["report", "poster", "slides"];
+const studentDocumentOrder: StudentDocumentType[] = ["report", "poster", "slides", "paper"];
 
 export function StudentDocuments({
 	documents,
