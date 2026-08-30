@@ -27,3 +27,14 @@ export type FacultyMember = {
 	headshotPosition?: string;
 	description: ReactNode;
 };
+
+export type EventEntry = {
+	id: string;
+	title: string;
+	date: string;
+	time?: string;
+	location?: string;
+	speaker?: string;
+	description: string;
+	category?: "Seminar" | "Workshop" | "Poster Session" | "Lab Meeting" | "Presentation" | "Other";
+};

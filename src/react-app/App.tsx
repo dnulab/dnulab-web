@@ -1,5 +1,6 @@
 import "./App.css";
 import { AboutPage } from "./pages/AboutPage";
+import { EventsPage } from "./pages/EventsPage";
 import { FacultyPage } from "./pages/FacultyPage";
 import { HomePage } from "./pages/HomePage";
 import { InternalPage } from "./pages/InternalPage";
@@ -14,6 +15,8 @@ function App() {
 	switch (path) {
 		case "/about":
 			return <AboutPage />;
+		case "/events":
+			return <EventsPage />;
 		case "/faculty":
 			return <FacultyPage />;
 		case "/internal":
