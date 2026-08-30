@@ -46,8 +46,6 @@ export function AboutPage() {
 			</section>
 			<nav className="placeholder-links" aria-label="About page navigation">
 				<a href="/">Back to Home</a>
-				<a href="/faculty">Faculty Page</a>
-				<a href="/students">Students Page</a>
 			</nav>
 		</>
 	);

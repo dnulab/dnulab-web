@@ -51,8 +51,6 @@ export function StudentsPage() {
 			</section>
 			<nav className="placeholder-links" aria-label="Students page navigation">
 				<a href="/">Back to Home</a>
-				<a href="/faculty">Faculty Page</a>
-				<a href="/about">About</a>
 			</nav>
 		</>
 	);

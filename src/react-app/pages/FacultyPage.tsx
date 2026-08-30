@@ -36,8 +36,6 @@ export function FacultyPage() {
       </p>
       <nav className="placeholder-links" aria-label="Faculty page navigation">
         <a href="/">Back to Home</a>
-        <a href="/students">Student Page</a>
-        <a href="/about">About</a>
       </nav>
     </>
   );

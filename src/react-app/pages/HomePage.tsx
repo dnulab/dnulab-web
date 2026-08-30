@@ -13,6 +13,7 @@ export function HomePage() {
 				<a href="/about">about</a>
 				<a href="/faculty">faculty</a>
 				<a href="/students">students</a>
+				<a href="/events">events</a>
 				<a href="/onboarding">onboarding</a>
 			</nav>
 		</>
