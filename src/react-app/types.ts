@@ -1,6 +1,6 @@
 import { type ReactNode } from "react";
 
-export type StudentDocumentType = "report" | "poster" | "slides";
+export type StudentDocumentType = "report" | "poster" | "slides" | "paper";
 
 export type StudentDocuments = Partial<Record<StudentDocumentType, string>>;
 
