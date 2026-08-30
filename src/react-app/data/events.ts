@@ -5,7 +5,7 @@ export const events: EventEntry[] = [
 		id: "fall-2026-posters",
 		title: "DNU Lab informal poster session and research conversation",
 		date: "Tuesday, September 1, 2026",
-		time: "5:30 PM - 6:00 PM",
+		time: "4:30 PM - 5:00 PM",
 		location: "Rector Atrium",
 		// speaker: "DNU Lab Student Researchers",
 		description:
