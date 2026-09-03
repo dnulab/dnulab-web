@@ -200,5 +200,6 @@ dist
 
 
 # AI commit messages
- .commit_msg_proposed
+.commit_msg_proposed
+
  

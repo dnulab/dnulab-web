@@ -15,7 +15,7 @@ export const studentTerms: StudentTerm[] = [
       {
         name: "Ty Chermsirivatana",
         graduationYear: "'27",
-        projectTitle: "Investigating wide beam search for grammar-constrained decoding in small language models.",
+        projectTitle: "Investigating wide beam search for grammar-constrained decoding in small language models",
         documents: {
           paper: "https://arxiv.org/abs/2608.25761",
         },
