@@ -1,5 +1,6 @@
 import jmacHeadshot from "../assets/jmac-whiteboard-square.jpg";
 import xiaoluHeadshot from "../assets/wangx-square.jpg";
+import erenHeadshot from "../assets/eren_dnu.jpg";
 import { type FacultyMember } from "../types";
 
 export const facultyMembers: FacultyMember[] = [
@@ -20,9 +21,9 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Eren Bilen",
     department: "Data Analytics",
-    headshot: "https://www.dickinson.edu/images/faculty/large/bilene.jpg",
+    headshot: erenHeadshot,
     description:
-      "Eren's research focuses on using data science to answer questions in areas of competition, consumer behavior, and natural disaster response. By collaborating with different industries and communities, he aims to bring the benefits of data analytics to the real world, helping people and organizations make informed choices.",
+      "Eren's research interests include reinforcement learning and its applications to games and puzzles. He is particularly interested in the different ways humans and AI discover solutions to unfamiliar problems. His projects include work on chess, the Rubik's Cube, and games involving probability and strategy.",
   },
   {
     name: "Lulu Wang",
