@@ -6,19 +6,19 @@ Typically, we recommend choosing just one result or experiment to include in the
 
 ## Length
 
-A report can be a maximum of _nine_ content pages in length, including all tables and figures, but excluding the following sections: References, Use Of Artificial Intelligence, Supplementary Material.
+A report can be a maximum of _nine_ content pages in length, including all tables and figures, but excluding the following sections: References, Use of Artificial Intelligence, Supplementary Material.
 
 ## Format
 
-The report should have appearance similar to the example template provided here: [DNU lab report example](./report-template/dnu-report.pdf). If using LaTeX, the report can and should be built using the DNU lab [LaTeX template](./report-template/dnu-report.tex) and [style file](./report-template/dnu.sty). Use of LaTeX is encouraged but not required. The report should be submitted as a PDF file.
+The report should have an appearance similar to the following example template: [DNU lab report example](./report-template/dnu-report.pdf). If using LaTeX, use the DNU lab [LaTeX template](./report-template/dnu-report.tex) and [style file](./report-template/dnu.sty). Use of LaTeX is encouraged but not required. The report should be submitted as a PDF file.
 
 ## AI Use
 
-Authors are welcome to use any tool they wish—including AI tools—for preparing and writing the paper, but they must ensure that all content is correct and original. (Acknowledgement: This language is adapted from the NeurIPS 2026 website.)
+Authors are welcome to use any tool they wish—including AI tools—for preparing and writing the paper, but they must ensure that all content is correct and original. (Acknowledgment: This language is adapted from the [NeurIPS 2026](https://neurips.cc/Conferences/2026/MainTrackHandbook) website.)
 
 ## Structure of the report
 
-The following sections are required: Title, Abstract, Introduction, Related Work, Conclusion, References, and Use Of Artificial Intelligence. The following sections are recommended or optional, depending on the project: Background, Experimental Design, Results, Analysis, Discussion, Supplementary material, and any other sections suitable for the content.
+The following sections are required: Title, Abstract, Introduction, Related Work, Conclusion, References, and Use of Artificial Intelligence. The following sections are optional: Background, Experimental Design, Results, Analysis, Discussion, Supplementary Material, and any other sections suitable for the content.
 
 Guidance for individual sections is given below. Remember that concise reports are preferred, so suggested section lengths can be reduced. Please don't expand material beyond what is necessary for clarity and completeness. It is not important to fill the nine-page content limit.
 
@@ -32,14 +32,19 @@ Aim for 150 to 200 words. Summarize the report clearly, using language that can 
 
 ### Introduction
 
-It is probably best to write this last. The length can vary depending on the nature of the project. At a minimum, explain the same content as the abstract but in more detail. Add more context for the motivation of your report, and preview some main results. In many reports, the introduction will be about one page, but it may be shorter or longer depending on the project.
+It is probably best to write this last. The length can vary depending on the nature of the project. At a minimum, explain the same content as the abstract but in more detail. Add more context for the motivation of your report, and preview the main results. In many reports, the introduction will be about one page, but it may be shorter or longer depending on the project.
 
 ### Related Work
 
-DNU Lab reports are not expected to include a comprehensive literature survey. However, it is essential to include a Related Work section. This section must discuss at least one item of related work. It should explain how the contribution of the current report differs from, complements, or reproduces the results of related work. The Related Work section should not merely summarize related work; it should explain the relationship between that work and the current report. In many reports, this section will be between a quarter page and one page. You are welcome to include the following text verbatim without citation, or adapt your own version of it:
+DNU Lab reports are not expected to include a comprehensive literature survey. However, it is essential to include a Related Work section. This section must discuss at least one item of related work. It should explain how the contribution of the current report differs from, complements, or reproduces the results of related work. The Related Work section should not merely summarize related work; it should explain the relationship between that work and the current report. In many reports, this section will be between a quarter of a page and one page. You are welcome to include the following text verbatim without citation, or adapt your own version of it:
 
 ```text
-This report describes the output of an independent research project in the DNU Lab of Dickinson College. By design, DNU Lab projects focus on conducting research rather than surveying existing work. In this section, we describe only one[/two/three...] piece(s) of related work. This serves as an initial step toward a more complete literature survey.
+This report describes the output of an independent research project 
+in the DNU Lab of Dickinson College. By design, DNU Lab projects
+focus on conducting research rather than surveying existing work.
+In this section, we describe only one[/two/three...] piece(s)
+of related work. This serves as an initial step toward a more 
+complete literature survey.
 ```
 
 The subsequent sections are more content-dependent. You may have sections with titles similar to some of the following: Background, Experimental Design, Results, Analysis, Discussion. These sections should be chosen to support the main contribution of the report, rather than to record every step taken during the project.
@@ -64,4 +69,4 @@ This is optional. It can include additional experiments, results, discussion, de
 
 ## Checklist
 
-Before submitting the report, check that it satisfies the nine-page content limit; includes references, a related work section, and a use-of-AI section; captions and references all figures and tables; uses clear and consistent formatting; and has been checked for spelling, grammar, punctuation, and capitalization errors.
+Before submitting the report, check that it satisfies the nine-page content limit; includes references, a related work section, and a use-of-AI section; captions for all figures and tables; in-text references to each figure and table; uses clear and consistent formatting; and has been checked for spelling, grammar, punctuation, and capitalization errors.

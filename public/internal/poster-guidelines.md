@@ -1,6 +1,7 @@
 # DNU Lab Poster Guidelines
 
 For some DNU Lab research projects, the advisor will recommend producing a poster. Use creative freedom in making the poster. The following guidelines may be helpful, but are not rigid requirements.
+
 - Suggested size is 30 inches by 40 inches
 - Powerpoint can be used as one possible software tool for creating the poster. Set the page size to (for example) 30 inches by 40 inches.
 - Everything on the poster should be legible from a distance of several feet. Use large fonts and high-contrast colors.
@@ -9,4 +10,5 @@ For some DNU Lab research projects, the advisor will recommend producing a poste
   - Print in tiled mode to letter paper, tape up on a wall, window, or whiteboard
   - Print in tiled mode to letter paper, tape to poster board or trifold (the lab can provide these)
   - Project using a data projector borrowed from Academic Technology
+  - Make a handwritten poster by writing on some A1-size paper with colored markers and other art supplies. Printed excerpts can be taped on. The lab can supply paper for this.
   - It is also possible to print a traditional large-format poster using the Dickinson Print Center, but the cost is likely to be $50 or more, and students are required to pay for this individually.
