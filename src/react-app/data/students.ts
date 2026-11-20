@@ -136,6 +136,15 @@ export const studentTerms: StudentTerm[] = [
         },
       },
       {
+        name: "Rayyan Faiz Madraswala",
+        graduationYear: "'29",
+        projectTitle:
+          "Routing Between Generation and Retrieval in a Fine-Tuned DistilGPT-2 Calculator Agent",
+        documents: {
+          report: "/student-reports/spring2026/madraswala.pdf",
+        },
+      },
+      {
         name: "Coby McClellan",
         graduationYear: "'28",
         projectTitle:
